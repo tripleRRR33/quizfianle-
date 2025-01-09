@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Master - Accueil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border: 2px solid #4CAF50;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+        }
+        .btn-start {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn-start:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Quiz Master</h1>
+        <p>Testez vos connaissances sur une multitude de thèmes !</p>
+    </header>
+
+    <nav>
+        <a href="#themes">Thèmes</a>
+        <a href="#scores">Tableau des Scores</a>
+        <a href="#about">À Propos</a>
+    </nav>
+
+    <div class="container">
+        <h2>Prêt à relever le défi ?</h2>
+        <p>Cliquez sur le bouton ci-dessous pour commencer votre premier quiz !</p>
+        <button class="btn-start" onclick="location.href='quiz.html'">Commencer un Quiz</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Quiz Master. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
